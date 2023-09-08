@@ -17,7 +17,7 @@
 # --platform linux/amd64 \					# work around Apple silicon support issue
 # --name shiny \							# name the container 'shiny'
 # -p 3838:3838 \							# map standard shiny port
-# -v "$(pwd)"/apps:/srv/shiny-server \		# mount the host 'apps' directory to the default applications folder in the shiny container
+# -v "$(pwd)"/apps:/srv/shiny-server/apps \		# mount the host 'apps' directory to the default applications folder in the shiny container
 # -v shiny-data:/srv/shiny-server/data \	# mount persistant 'shiny-data' volume into the /srv/shiny-server/data dir in container
 # rocker/shiny-verse						# use the Rocker shiny-verse source image
 docker run -d --rm --platform linux/amd64 --name shiny -p 3838:3838 -v $(pwd)/apps:/srv/shiny-server/apps -v shiny-data:/srv/shiny-server/data rocker/shiny-verse
