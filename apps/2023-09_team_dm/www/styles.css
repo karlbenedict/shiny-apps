@@ -1,0 +1,102 @@
+.title {
+	padding-top:260pt;
+	text-align: center;
+	font-size: 48pt
+}
+
+.name {
+	padding-top: 72pt;
+	text-align: center;
+	font-size:36pt
+}
+
+.affiliation {
+	text-align: center;
+	font-size: 30pt
+}
+
+.large_link {
+	font-size: 36pt;
+	text-align:center;
+}
+
+.fullwidth img {
+	width:90%;
+	float:none;
+	margin-left:auto;
+	margin-right:auto
+}
+
+body {
+	width:1920px;
+	height:1080px;
+}
+
+.slide {
+	margin-top: 0px;
+	padding-top: 0px;
+	width: 100%;
+	height: 1039px;
+}
+
+.title_slide {
+	background-image: url('CULLS-Title_1920x1039.png')
+} 
+
+.body_slide{
+	background-image: url('CULLS-Slide_1920x1039.png')
+} 
+
+.slide > h2 {
+	padding-top:32px;
+	padding-left:32px;
+	font-size: 48pt
+}
+
+.iframe_media iframe {
+	display:block;
+	max-width:1500px;
+	max-height:850px;
+	margin-left:auto;
+	margin-right:auto
+}
+
+.text_graphic {
+	font-size:36pt;
+	padding-left: 32px;
+}
+
+.text_graphic img {
+	float:right;
+	max-height:850px
+}
+
+.text_content_half {
+	max-width:1000px;
+	padding-left: 64px
+}
+
+.graphic_graphic img {
+	max-width:800px;
+	max-height: 850px;
+	margin-left:auto;
+	margin-right:auto;
+	display: flex;
+	justify-content: center;
+
+}
+
+.graphic_graphic div {
+	display: flex;
+	justify-content: center;
+	width: 1600px;
+	height: 850px; 
+	margin-left:auto;
+	margin-right:auto
+}
+
+.graphic_graphic div > div {
+	justify-content: center;
+	max-width: 800;
+	max-height: 850
+}
